@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A9453C23E6372900BBF1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9453B23E6372900BBF1DB /* AppDelegate.swift */; };
+		84A9453E23E6372900BBF1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9453D23E6372900BBF1DB /* ViewController.swift */; };
+		84A9454023E6372B00BBF1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A9453F23E6372B00BBF1DB /* Assets.xcassets */; };
+		84A9454323E6372B00BBF1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A9454123E6372B00BBF1DB /* Main.storyboard */; };
+		84A9454C23E6374B00BBF1DB /* PDFReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A9454B23E6374B00BBF1DB /* PDFReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A9453823E6372900BBF1DB /* convertPDFtoText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertPDFtoText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A9453B23E6372900BBF1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A9453D23E6372900BBF1DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84A9453F23E6372B00BBF1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A9454223E6372B00BBF1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A9454423E6372B00BBF1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A9454523E6372B00BBF1DB /* convertPDFtoText.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = convertPDFtoText.entitlements; sourceTree = "<group>"; };
+		84A9454B23E6374B00BBF1DB /* PDFReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDFReader.swift; path = ../../PDF2IMAGE2TEXT/PDF2IMAGE2TEXT/PDFReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A9453523E6372900BBF1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A9452F23E6372900BBF1DB = {
+			isa = PBXGroup;
+			children = (
+				84A9453A23E6372900BBF1DB /* convertPDFtoText */,
+				84A9453923E6372900BBF1DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A9453923E6372900BBF1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A9453823E6372900BBF1DB /* convertPDFtoText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A9453A23E6372900BBF1DB /* convertPDFtoText */ = {
+			isa = PBXGroup;
+			children = (
+				84A9453B23E6372900BBF1DB /* AppDelegate.swift */,
+				84A9453D23E6372900BBF1DB /* ViewController.swift */,
+				84A9453F23E6372B00BBF1DB /* Assets.xcassets */,
+				84A9454123E6372B00BBF1DB /* Main.storyboard */,
+				84A9454B23E6374B00BBF1DB /* PDFReader.swift */,
+				84A9454423E6372B00BBF1DB /* Info.plist */,
+				84A9454523E6372B00BBF1DB /* convertPDFtoText.entitlements */,
+			);
+			path = convertPDFtoText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A9453723E6372900BBF1DB /* convertPDFtoText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A9454823E6372B00BBF1DB /* Build configuration list for PBXNativeTarget "convertPDFtoText" */;
+			buildPhases = (
+				84A9453423E6372900BBF1DB /* Sources */,
+				84A9453523E6372900BBF1DB /* Frameworks */,
+				84A9453623E6372900BBF1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = convertPDFtoText;
+			productName = convertPDFtoText;
+			productReference = 84A9453823E6372900BBF1DB /* convertPDFtoText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A9453023E6372900BBF1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Addie;
+				TargetAttributes = {
+					84A9453723E6372900BBF1DB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 84A9453323E6372900BBF1DB /* Build configuration list for PBXProject "convertPDFtoText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A9452F23E6372900BBF1DB;
+			productRefGroup = 84A9453923E6372900BBF1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A9453723E6372900BBF1DB /* convertPDFtoText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A9453623E6372900BBF1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9454023E6372B00BBF1DB /* Assets.xcassets in Resources */,
+				84A9454323E6372B00BBF1DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A9453423E6372900BBF1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A9453E23E6372900BBF1DB /* ViewController.swift in Sources */,
+				84A9454C23E6374B00BBF1DB /* PDFReader.swift in Sources */,
+				84A9453C23E6372900BBF1DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A9454123E6372B00BBF1DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A9454223E6372B00BBF1DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A9454623E6372B00BBF1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A9454723E6372B00BBF1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84A9454923E6372B00BBF1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = convertPDFtoText/convertPDFtoText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RFGGT46LTQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = convertPDFtoText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.convertPDFtoText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84A9454A23E6372B00BBF1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = convertPDFtoText/convertPDFtoText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RFGGT46LTQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = convertPDFtoText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = n.convertPDFtoText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A9453323E6372900BBF1DB /* Build configuration list for PBXProject "convertPDFtoText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9454623E6372B00BBF1DB /* Debug */,
+				84A9454723E6372B00BBF1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A9454823E6372B00BBF1DB /* Build configuration list for PBXNativeTarget "convertPDFtoText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A9454923E6372B00BBF1DB /* Debug */,
+				84A9454A23E6372B00BBF1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A9453023E6372900BBF1DB /* Project object */;
+}
